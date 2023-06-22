@@ -1,7 +1,7 @@
 
 import CardWidget from "./CardWidget";
-
-const navbar = () =>{
+import { Link } from "react-router-dom";
+const Navbar = () =>{
     return(
         <header className="navbar">
             <div className="">
@@ -9,12 +9,12 @@ const navbar = () =>{
             </div>
             <div className="link">
                 <nav>
-                    <a href="">Inicio</a>
-                    <a href="">Productos</a>
+                    <Link><a href="">Inicio</a></Link>
+                    <Link to="/productos"><a href="">Productos</a></Link>
                 </nav>   
             </div>
                 <CardWidget />
         </header>
     )
 }
-export default navbar;
+export default Navbar;

@@ -1,0 +1,58 @@
+{
+    "data":[
+    {   
+        "id": 1,
+        "foto": "./img/gpu3.png",
+        "nombre": "Grafica AMD",
+        "precio": 400,
+        "cantidad": 30,
+        "categoria": "grafica",
+        "descripcion": "grafica AMD para juegos AA y trabajo mediano "
+    },
+    {   
+        "id": 3,
+        "foto": "./img/monitor1.jpeg",
+        "nombre": "Monitor",
+        "precio": 200,
+        "cantidad": 10,
+        "categoria": "periferico",
+        "descripcion": "monitor de 24 pulgadas 75hz"
+    },
+    {   
+        "id": 4,
+        "foto": "./img/intel.jpg",
+        "nombre": "Procesador intel",
+        "precio": 250,
+        "cantidad": 22,
+        "categoria": "Componentes",
+        "descripcion": "Procesador intel 14 nucleos 6 hilos"
+    },
+    {   
+        "id": 5,
+        "foto": "./img/gpu4.png",
+        "nombre": "Grafica Invidia",
+        "precio": 400,
+        "cantidad": 14,
+        "categoria":"graficas",
+        "descripcion":"grafica perfecta para gaming y stream"
+    },
+    {   
+        "id": 6,
+        "foto": "./img/procesadoramd.JPEG",
+        "nombre": "Procesador AMD",
+        "precio": 299,
+        "cantidad": 32,
+        "categoria":"componentes",
+        "descripcion":"procesador AMD de 12 nucleos 24 hilos"
+    },
+    {   
+        "id": 7,
+        "foto": "./img/ram.jpg",
+        "nombre": "Memoria Ram",
+        "precio": 100,
+        "cantidad": 50,
+        "categoria": "componentes",
+        "descripcion":"memoria ram 8 16 gb"
+    }
+]
+}

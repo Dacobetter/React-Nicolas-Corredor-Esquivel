@@ -1,19 +1,26 @@
-import Navbar from "./components/Navbar.jsx";
-import ItemContainer from "./components/ItemContainer.jsx"
-import "./App.css"
+import Navbar from "./components/Navbar";
+import "./app.css"
+import { BrowserRouter, Routes, Route, Navigate }  from "react-router-dom"
+import { ItemContainer } from "./components/itemContainer";
+import { DesProducto } from "./components/DesProducto";
 
-function App(){
-    return(
-        <div>
-            <Navbar />
-            <div className="cardContainer">
-            <ItemContainer 
-            titulo="GPU AMD"
-            imagen="./img/gpu3.png"
-            descripccion="$300"/>
-            
-            </div>
-        </div>
-    )
+
+
+function App() {
+  
+
+  return (
+ <BrowserRouter>
+
+  <Navbar />
+  <Routes>
+    <Route path="/productos/" element={<ItemContainer />}/>
+    <Route path="/productos/:categoria" element={<ItemContainer />}/>
+    <Route path="/productos/:categoria/:id" element={<DesProducto />}/>
+    
+  </Routes>
+ </BrowserRouter>
+  )
 }
+
 export default App;
