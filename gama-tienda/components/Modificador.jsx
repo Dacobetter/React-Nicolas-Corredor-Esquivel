@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const Incrementador = () => {
+export const Modificador = () => {
     
 const [cantidad, setCantidad] = useState(0);
 
@@ -14,7 +14,7 @@ const handleDecrement = () => {
   }
 };
 return(
-    <div className="botonesSuma">
+    <div className="botones">
       <button onClick={handleDecrement} className="btn btn-primary">-</button>
       <span>{cantidad}</span>
       <button onClick={handleIncrement} className="btn btn-primary">+</button>

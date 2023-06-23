@@ -1,5 +1,5 @@
 {
-    "data":[
+    "productos":[
     {   
         "id": 1,
         "foto": "./img/gpu3.png",
@@ -24,7 +24,7 @@
         "nombre": "Procesador intel",
         "precio": 250,
         "cantidad": 22,
-        "categoria": "Componentes",
+        "categoria": "Componente",
         "descripcion": "Procesador intel 14 nucleos 6 hilos"
     },
     {   
@@ -33,7 +33,7 @@
         "nombre": "Grafica Invidia",
         "precio": 400,
         "cantidad": 14,
-        "categoria":"graficas",
+        "categoria":"grafica",
         "descripcion":"grafica perfecta para gaming y stream"
     },
     {   
