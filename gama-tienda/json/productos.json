@@ -24,7 +24,7 @@
         "nombre": "Procesador intel",
         "precio": 250,
         "cantidad": 22,
-        "categoria": "Componente",
+        "categoria": "componentes",
         "descripcion": "Procesador intel 14 nucleos 6 hilos"
     },
     {   
