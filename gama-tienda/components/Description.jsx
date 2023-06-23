@@ -26,7 +26,7 @@ export const DesProducto = () => {
             <div className="card" style={{ width: "300px" }} key={producto.id}>
               <div style={{ maxWidth: "100%" }}>
                 <img
-                  src={producto.img}
+                  src={producto.foto}
                   className="card-img-top"
                   alt=""
                   style={{ width: "100%", height: "200px" }}
